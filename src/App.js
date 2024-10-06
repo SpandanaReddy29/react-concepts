@@ -1,11 +1,16 @@
 import './App.css';
+import DataFetching from './components/dataFetch/DataFetching';
+import DataFetchingUsingId from './components/dataFetch/DataFetchingUsingId';
+import DataFetchingUsingIdButton from './components/dataFetch/DataFetchingUsingIdButton';
 import FunctionalGreet from './components/FunctionalGreet';
-import UseEffect from './components/hooks/UseEffect';
-import UseEffectConditionally from './components/hooks/useEffectConditionally';
-import UseStateHook from './components/hooks/UseStateHook';
-import UseStateWithArray from './components/hooks/UseStatewithArray';
-import UseStateWithObjects from './components/hooks/UseStateWithObjects';
-import UseStateWithPrevState from './components/hooks/UseStateWithPrevState';
+import UseEffectHook from './components/hooks/useEffect/UseEffectHook';
+import UseEffectCleanUp from './components/hooks/useEffect/UseEffectCleanUp';
+import UseEffectConditionally from './components/hooks/useEffect/UseEffectConditionally';
+import UseEffectOnlyOnce from './components/hooks/useEffect/UseEffectOnlyOnce';
+import UseStateHook from './components/hooks/useState/UseStateHook';
+import UseStateWithArray from './components/hooks/useState/UseStatewithArray';
+import UseStateWithObjects from './components/hooks/useState/UseStateWithObjects';
+import UseStateWithPrevState from './components/hooks/useState/UseStateWithPrevState';
 
 function App() {
   return (
@@ -18,8 +23,13 @@ function App() {
       <UseStateWithPrevState />
       <UseStateWithObjects />
       <UseStateWithArray /> */}
-      <UseEffect />
-      <UseEffectConditionally />
+      {/* <UseEffectHook />
+      <UseEffectConditionally /> */}
+      {/* <UseEffectOnlyOnce /> */}
+      {/* <UseEffectCleanUp /> */}
+      {/* <DataFetchingUsingId /> */}
+      {/* <DataFetching /> */}
+      <DataFetchingUsingIdButton />
     </div>
   );
 }
