@@ -1,0 +1,13 @@
+React is an open source javascript library for building user interfaces.
+React is a project created and maintained by Facebook.
+React has a component based architecture. This lets you break down your application into small encapsulated parts which can then be composed to make more complex UI.
+React is declarative.
+React will make it painless for you to create complex UIs by abstracting away the difficult parts. 
+React will handle efficiently updating and rendering just the right components in your application when your data changes. 
+DOM updates which is one of the more expensive operations is handled gracefully in React.
+
+npx is npm package runner is installed during node installation
+
+props short for properties, is the optional input that your component can accept.
+It also allows the component content to be dynamic.
+props are immutable and cannot be changed
