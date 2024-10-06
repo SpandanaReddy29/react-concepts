@@ -11,6 +11,8 @@ import UseStateHook from './components/hooks/useState/UseStateHook';
 import UseStateWithArray from './components/hooks/useState/UseStatewithArray';
 import UseStateWithObjects from './components/hooks/useState/UseStateWithObjects';
 import UseStateWithPrevState from './components/hooks/useState/UseStateWithPrevState';
+import UseContextHook from './components/hooks/useContext/UseContextHook';
+
 
 function App() {
   return (
@@ -26,10 +28,11 @@ function App() {
       {/* <UseEffectHook />
       <UseEffectConditionally /> */}
       {/* <UseEffectOnlyOnce /> */}
-      {/* <UseEffectCleanUp /> */}
+      {/* <UseEffectCleanUp /> */}.
       {/* <DataFetchingUsingId /> */}
       {/* <DataFetching /> */}
-      <DataFetchingUsingIdButton />
+      {/* <DataFetchingUsingIdButton /> */}
+      <UseContextHook />
     </div>
   );
 }
