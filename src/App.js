@@ -18,6 +18,7 @@ import MultipleUseReducer from './components/hooks/useReducer/MultipleUseReducer
 import UseReducerUseContext from './components/hooks/useReducer/UseReducerUseContext';
 import DataFetchOne from './components/hooks/useReducer/DataFetching/DataFetchOne';
 import DataFetchTwo from './components/hooks/useReducer/DataFetching/DataFetchTwo';
+import ParentComponent from './components/hooks/useCallback/ParentComponent';
 
 
 function App() {
@@ -44,7 +45,8 @@ function App() {
       {/* <MultipleUseReducer /> */}
       {/* <UseReducerUseContext /> */}
       {/* <DataFetchOne /> */}
-      <DataFetchTwo />
+      {/* <DataFetchTwo /> */}
+      <ParentComponent />
     </div>
   );
 }
