@@ -22,6 +22,9 @@ import ParentComponent from './components/hooks/useCallback/ParentComponent';
 import Counter from './components/hooks/useMemo/Counter';
 import FocusInput from './components/hooks/useRef/FocusInput';
 import Timer from './components/hooks/useRef/Timer';
+import DocTitle from './components/hooks/customHooks/DocTitle';
+import CounterOne from './components/hooks/customHooks/CounterOne';
+import UserForm from './components/hooks/customHooks/UserForm';
 
 function App() {
   return (
@@ -51,7 +54,10 @@ function App() {
       {/* <ParentComponent /> */}
       {/* <Counter /> */}
       {/* <FocusInput /> */}
-      <Timer />
+      {/* <Timer /> */}
+      {/* <DocTitle /> */}
+      {/* <CounterOne /> */}
+      <UserForm />
     </div>
   );
 }
