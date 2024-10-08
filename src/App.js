@@ -20,7 +20,8 @@ import DataFetchOne from './components/hooks/useReducer/DataFetching/DataFetchOn
 import DataFetchTwo from './components/hooks/useReducer/DataFetching/DataFetchTwo';
 import ParentComponent from './components/hooks/useCallback/ParentComponent';
 import Counter from './components/hooks/useMemo/Counter';
-
+import FocusInput from './components/hooks/useRef/FocusInput';
+import Timer from './components/hooks/useRef/Timer';
 
 function App() {
   return (
@@ -48,7 +49,9 @@ function App() {
       {/* <DataFetchOne /> */}
       {/* <DataFetchTwo /> */}
       {/* <ParentComponent /> */}
-      <Counter />
+      {/* <Counter /> */}
+      {/* <FocusInput /> */}
+      <Timer />
     </div>
   );
 }
