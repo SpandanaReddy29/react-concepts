@@ -19,6 +19,7 @@ import UseReducerUseContext from './components/hooks/useReducer/UseReducerUseCon
 import DataFetchOne from './components/hooks/useReducer/DataFetching/DataFetchOne';
 import DataFetchTwo from './components/hooks/useReducer/DataFetching/DataFetchTwo';
 import ParentComponent from './components/hooks/useCallback/ParentComponent';
+import Counter from './components/hooks/useMemo/Counter';
 
 
 function App() {
@@ -46,7 +47,8 @@ function App() {
       {/* <UseReducerUseContext /> */}
       {/* <DataFetchOne /> */}
       {/* <DataFetchTwo /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+      <Counter />
     </div>
   );
 }
