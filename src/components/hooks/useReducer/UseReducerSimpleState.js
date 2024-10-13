@@ -1,7 +1,7 @@
 import React, {useReducer} from 'react';
 
-//useReducer is a hook used for state management
-//It is an alernative for useState
+//useReducer is a hook used for complex state management by utilizing reducer function
+//It is an alernative for useState and provides way to update state based on defined actions
 //useReducer accepts 2 parameters 1- reducer function, 2- initial State
 //reducer accepts 2 parameter 1- currentState, 2- action
 //To share the state globally useReducer is combined with useContext

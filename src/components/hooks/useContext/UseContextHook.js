@@ -1,4 +1,4 @@
-//Context provides a way to pass data through the component tree without having passing to pass props down manually at every level
+//Context provides a way to pass data through the component tree without prop drilling
 //Is a way to manage state globally
 //It can be used together with the useState Hook to share state between deeply nested components more easily than with useState alone
 //useContext makes consumption of values easy

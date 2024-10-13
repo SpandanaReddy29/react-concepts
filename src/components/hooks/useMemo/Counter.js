@@ -1,5 +1,10 @@
 import React, {useState, useMemo} from 'react'
 
+//Used to memoize the result of a function and cache it, recalculating only if dependencies changes and provides memozied value
+//When computing a value is expensive or time-consuming
+//To prevent unnecessary re-computation of values across re-renders
+//memoize a computed value and returns the cached value without causing re-renders
+
 const Counter = () => {
 
   const [counterOne, setCounterOne] = useState(0);

@@ -3,8 +3,8 @@ import Button from './Button';
 import Title from './Title';
 import Count from './Count';
 
-//useCallback will return a memomized version of callback function that only changes if one of dependencies has changed.
-//It is useful when passing callbacks to optimized child components that rely on reference equality  to prevent unnecessary renders
+//useCallback will return a memomized function a provided callback function returning the memozied version of the function.
+//It is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders
 
 const ParentComponent = () => {
 

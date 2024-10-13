@@ -1,13 +1,64 @@
-React is an open source javascript library for building user interfaces.
-React is a project created and maintained by Facebook.
-React has a component based architecture. This lets you break down your application into small encapsulated parts which can then be composed to make more complex UI.
-React is declarative.
-React will make it painless for you to create complex UIs by abstracting away the difficult parts. 
-React will handle efficiently updating and rendering just the right components in your application when your data changes. 
-DOM updates which is one of the more expensive operations is handled gracefully in React.
+React is an open source javascript library for building user interfaces for web applications.
+React is a project created and maintained by Meta.
 
-npx is npm package runner is installed during node installation
+React allows to build complex Ui by breaking them into smaller reusable code called components
+These components manage their own state, making it easier to build and maintain large scale applications.
 
-props short for properties, is the optional input that your component can accept.
-It also allows the component content to be dynamic.
-props are immutable and cannot be changed
+JSX - JavaScript XML
+      Which allows us to write HTML-like code eiyhin JavaScript
+      Is used to define structure of components
+
+React component - Is reusable building block for the UI
+                  Which can be class or function which returns JSX
+
+React - Is declarative in nature and not Imperative
+        It doesn’t allow u to interact directly with dom. It uses something called virtual DOM to do this process.
+
+State - Is a component's built-in memory that stores data and information about the component
+        It's a JavaScript object that determines how a component behaves and renders information to the user
+        Components own and manage their own state
+        State is mutable and managed within component itself
+
+Props - Are read-only data passed from Parent Component to a Child Component
+        Is used to communicate between two components
+        It also allows the component content to be dynamic.
+        Are managed and owned by Parent Component
+        Props are immutable and are passed from parent to child component
+
+
+Prop Drilling - Process of passing down props through multiple levels of nested components
+                Can be overcome by using Context API, Redux
+
+PropTypes - Defines the type of props that a function is expecting from its parent component
+            its a library
+
+Virtual DOM - Is a logical representation of actual DOM in form of React elements
+              Is virtaul representation of UI
+
+Reconciliation - Is the process of computing the difference between 2 Virtaul DOMS which is done through Diff Algorithm
+
+Rendering - Updation of information in rendering environment, which happens after reconciliation
+
+React Fragment - Is a way to group multiple elements without adding an extra HTML element to the DOM
+
+npx - is npm package runner is installed during node installation
+
+TYPES OF COMPONENTS - 
+
+1) Pure Component - Optimize the rendering performance by reducing unnecessary re-renders
+
+2) Higher Order Component (HOC) - Function that takes a component and returns a new enhanced component
+                                  Used for code reusing, logic sharing and additional functionalities to components
+                                  with keyword is used to write HOC       
+
+3) Smart / Stateful / Container Component - Manages state, handles business logics and passes data down to Presentational components
+
+4) Dumb / Stateless / Presentational - Only renders UI based on the props it receives, doesnt have any state or lifecycle methods       
+
+5) Controlled Component - Value of input fields is controlled by React through state
+
+6) Uncontrolled Component - Input fields maintains its own state using DOM    
+                            React doesnt control the value, but can interact with input using refs
+
+
+

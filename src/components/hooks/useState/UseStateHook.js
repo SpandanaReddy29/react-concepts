@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 
-//useState Hook allows us to track state in a function component
-//State generally refers to data or properties that need to be tracking in an application
+//useState Hook allows functional component to manage state by declaring state variable and a function to update them
 //useState accepts an initial state and returns two values:
 //1st value - The current state.
 //2nd Value - A function that updates the state.
 //Incase of array and objects always spread the values
+//Manages state and triggers re-renders whenever state changes
 
 const UseStateHook = () => {
 

@@ -1,9 +1,8 @@
 import React, {useEffect, useRef} from 'react';
 
-
-//The useRef Hook allows you to persist values between renders.
-//It can be used to store a mutable value that does not cause a re-render when updated.
-//It can be used to access a DOM element directly
+//The useRef Hook creates a mutable reference that persist across renders without causeing re-rendering.
+//It returns mutable object with a .current property.
+//It can be used to access a DOM element directly or managing focus, caching values to avoid re-initialization on re-renders
 
 const FocusInput = () => {
 
